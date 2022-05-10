@@ -68,7 +68,9 @@ public class Main {
 		
 		//No hay ningún problema. Existe conversión implícita de entero a float. 
 	}
-	public static void p9() {}
+	public static void p9() {
+		
+	}
 	public static void p10() {}
 	public static void p11() {}
 	public static void p12() {}
