@@ -144,6 +144,29 @@ public class Main {
 	        System.out.println(n);
 	}
 	
+	public static void p10j() {
+        char c = 'a';
+        int a = 12;
+        boolean res;
+        res = c != 'c' && 'b' >= c; //res = 'a'!='c'  &&  'b'>='a'
+        													//false				true      =  false
+        res = res == !true || a%5 >= a%4;
+        //res=false==false|| 2>0         = true
+        System.out.println(res);
+	}
+	
+    public static void p10k() {
+        char car1, car2, car3;
+        boolean bu;
+        car1 = 'b';
+        car2 = '3';
+        car3 = 'F';
+        bu = (car1 > car2) && (car3 != car1);
+        // bu = 'bu'>'3' && 'F' !='b' = true
+        bu = bu && !(car3 <= car2);// bu = true && true
+        System.out.println(bu);
+    }
+	
 	public static void p11() {}
 	public static void p12() {}
 	public static void p13() {}
