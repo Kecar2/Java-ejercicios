@@ -12,7 +12,7 @@ public class Main {
 		//p7();
 		//p8();
 		//p9();
-		p10f();
+		p10i();
 		//p11();
 		//p12();
 		//p13();
@@ -121,6 +121,29 @@ public class Main {
 		System.out.println("Resultado: " +e);
 		System.out.println("Resultado: " +f);
 	}
+	
+	public static void p10g() {
+		boolean m, n;
+		m = true && false || true && !false;
+		n = m && true && (false || true) && !(true || false);
+		m = !n || !m && (m && !n);
+		n = true || m && !(false && n);
+		System.out.println("Resultado: " +m);
+		System.out.println("Resultado: " +n);
+	}
+	
+	public static void p10i() {
+	        boolean m, n; int a, b;
+	        a = 12 + 7/3;
+	        b = 13 -7 % 3;
+	        m = a-b < b-a;
+	        n = a+2 > b-2;
+	        m = a+b != 25+4%3;
+	        n = (a<4 || b<19) && !m;
+	        System.out.println(m);
+	        System.out.println(n);
+	}
+	
 	public static void p11() {}
 	public static void p12() {}
 	public static void p13() {}
