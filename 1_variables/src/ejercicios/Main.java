@@ -12,7 +12,7 @@ public class Main {
 		//p7();
 		//p8();
 		//p9();
-		//p10();
+		p10f();
 		//p11();
 		//p12();
 		//p13();
@@ -71,7 +71,56 @@ public class Main {
 	public static void p9() {
 		
 	}
-	public static void p10() {}
+	public static void p10a() {
+		int a;
+		int b;
+		a = 10;
+		b = 15;
+		a = b+3+5*b;
+		b = a-b*2;
+		a = a+b;
+		System.out.println(a);
+		System.out.println(b);
+	}
+	public static void p10b() {
+		int a;
+		int b;
+		a = 10;
+		b = 11;
+		a = b/4%3;
+		b = 2+a*3/2+1;
+		System.out.println(a);
+		System.out.println(b);
+		
+	}
+	public static void p10c() {
+		int a;
+		int b;
+		int c;
+		a = 5;
+		b = 6;
+		a = 2+b-a*2/4;
+		b = a+2*b+1;
+		c = a%b + b%a + a/b + b/a;
+		System.out.println(c);
+	}
+	public static void p10d() {
+		double a;
+		double b;
+		a = 30.0;
+		b = 10.5;
+		a = a + 10.0/3 + (b-1/2.0);
+		b  = -b;
+		System.out.println(a);
+		System.out.println(b);
+	}
+	public static void p10f() {
+		int e,f;
+		e = -1 + 2*3/4%5;
+		f = -(1 + (2*(3/(4%5))));
+		System.out.println("Resultado: " +e);
+		System.out.println("Resultado: " +f);
+	}
 	public static void p11() {}
 	public static void p12() {}
 	public static void p13() {}
